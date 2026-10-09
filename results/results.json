@@ -1,0 +1,83 @@
+[
+  {
+    "cd_method": "louvain",
+    "centrality": "degree",
+    "avg_rmse": 0.9542897532014205,
+    "std_rmse": 0.010642166471872492,
+    "avg_mae": 0.746381472085379,
+    "std_mae": 0.007997250074115288,
+    "n_communities": 339
+  },
+  {
+    "cd_method": "louvain",
+    "centrality": "betweenness",
+    "avg_rmse": 0.9542902211458488,
+    "std_rmse": 0.010482456074220253,
+    "avg_mae": 0.7464283100400515,
+    "std_mae": 0.00793613827829187,
+    "n_communities": 339
+  },
+  {
+    "cd_method": "louvain",
+    "centrality": "closeness",
+    "avg_rmse": 0.9543065581777025,
+    "std_rmse": 0.010644092933503328,
+    "avg_mae": 0.7464069452388429,
+    "std_mae": 0.007983698742183735,
+    "n_communities": 339
+  },
+  {
+    "cd_method": "label_propagation",
+    "centrality": "degree",
+    "avg_rmse": 0.9541813833324237,
+    "std_rmse": 0.010708643218774386,
+    "avg_mae": 0.7463650329527567,
+    "std_mae": 0.00805346173427759,
+    "n_communities": 333
+  },
+  {
+    "cd_method": "label_propagation",
+    "centrality": "betweenness",
+    "avg_rmse": 0.9541719792977423,
+    "std_rmse": 0.010724419174861183,
+    "avg_mae": 0.7463574569600435,
+    "std_mae": 0.008063774486486772,
+    "n_communities": 333
+  },
+  {
+    "cd_method": "label_propagation",
+    "centrality": "closeness",
+    "avg_rmse": 0.954128449801083,
+    "std_rmse": 0.010727245938719827,
+    "avg_mae": 0.7463272574839058,
+    "std_mae": 0.008022763953796327,
+    "n_communities": 333
+  },
+  {
+    "cd_method": "bigclam",
+    "centrality": "degree",
+    "avg_rmse": 0.9542377081948372,
+    "std_rmse": 0.01062203574420006,
+    "avg_mae": 0.7463428691557699,
+    "std_mae": 0.007939726048081856,
+    "n_communities": 20
+  },
+  {
+    "cd_method": "bigclam",
+    "centrality": "betweenness",
+    "avg_rmse": 0.9541350844923031,
+    "std_rmse": 0.010600183314736503,
+    "avg_mae": 0.7462260379429261,
+    "std_mae": 0.007952691287014578,
+    "n_communities": 20
+  },
+  {
+    "cd_method": "bigclam",
+    "centrality": "closeness",
+    "avg_rmse": 0.9549827000250927,
+    "std_rmse": 0.010616158823219769,
+    "avg_mae": 0.7469875304486229,
+    "std_mae": 0.0076712104802741455,
+    "n_communities": 20
+  }
+]

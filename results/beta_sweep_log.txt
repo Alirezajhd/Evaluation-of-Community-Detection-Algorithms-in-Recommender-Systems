@@ -1,0 +1,149 @@
+Running community detection: louvain ...
+
+=== louvain + degree centrality, beta=0.0 ===
+  fold 1/5: RMSE=0.9486  MAE=0.7422
+  fold 2/5: RMSE=0.9745  MAE=0.7611
+  fold 3/5: RMSE=0.9491  MAE=0.7395
+  fold 4/5: RMSE=0.9538  MAE=0.7479
+  fold 5/5: RMSE=0.9447  MAE=0.7405
+  -> AVG RMSE=0.9541  AVG MAE=0.7462
+
+=== louvain + degree centrality, beta=0.5 ===
+  fold 1/5: RMSE=0.9486  MAE=0.7422
+  fold 2/5: RMSE=0.9745  MAE=0.7611
+  fold 3/5: RMSE=0.9490  MAE=0.7395
+  fold 4/5: RMSE=0.9537  MAE=0.7479
+  fold 5/5: RMSE=0.9448  MAE=0.7406
+  -> AVG RMSE=0.9541  AVG MAE=0.7462
+
+=== louvain + degree centrality, beta=1.0 ===
+  fold 1/5: RMSE=0.9486  MAE=0.7423
+  fold 2/5: RMSE=0.9749  MAE=0.7613
+  fold 3/5: RMSE=0.9491  MAE=0.7395
+  fold 4/5: RMSE=0.9538  MAE=0.7480
+  fold 5/5: RMSE=0.9451  MAE=0.7409
+  -> AVG RMSE=0.9543  AVG MAE=0.7464
+
+=== louvain + degree centrality, beta=2.0 ===
+  fold 1/5: RMSE=0.9491  MAE=0.7428
+  fold 2/5: RMSE=0.9760  MAE=0.7623
+  fold 3/5: RMSE=0.9501  MAE=0.7400
+  fold 4/5: RMSE=0.9544  MAE=0.7487
+  fold 5/5: RMSE=0.9464  MAE=0.7419
+  -> AVG RMSE=0.9552  AVG MAE=0.7471
+
+=== louvain + degree centrality, beta=5.0 ===
+  fold 1/5: RMSE=0.9518  MAE=0.7452
+  fold 2/5: RMSE=0.9801  MAE=0.7664
+  fold 3/5: RMSE=0.9541  MAE=0.7433
+  fold 4/5: RMSE=0.9580  MAE=0.7516
+  fold 5/5: RMSE=0.9513  MAE=0.7455
+  -> AVG RMSE=0.9591  AVG MAE=0.7504
+
+=== louvain + degree centrality, beta=10.0 ===
+  fold 1/5: RMSE=0.9574  MAE=0.7500
+  fold 2/5: RMSE=0.9855  MAE=0.7708
+  fold 3/5: RMSE=0.9615  MAE=0.7489
+  fold 4/5: RMSE=0.9643  MAE=0.7560
+  fold 5/5: RMSE=0.9576  MAE=0.7498
+  -> AVG RMSE=0.9653  AVG MAE=0.7551
+Running community detection: label_propagation ...
+
+=== label_propagation + closeness centrality, beta=0.0 ===
+  fold 1/5: RMSE=0.9486  MAE=0.7422
+  fold 2/5: RMSE=0.9745  MAE=0.7611
+  fold 3/5: RMSE=0.9491  MAE=0.7395
+  fold 4/5: RMSE=0.9538  MAE=0.7479
+  fold 5/5: RMSE=0.9447  MAE=0.7405
+  -> AVG RMSE=0.9541  AVG MAE=0.7462
+
+=== label_propagation + closeness centrality, beta=0.5 ===
+  fold 1/5: RMSE=0.9485  MAE=0.7421
+  fold 2/5: RMSE=0.9746  MAE=0.7611
+  fold 3/5: RMSE=0.9490  MAE=0.7396
+  fold 4/5: RMSE=0.9539  MAE=0.7479
+  fold 5/5: RMSE=0.9446  MAE=0.7406
+  -> AVG RMSE=0.9541  AVG MAE=0.7463
+
+=== label_propagation + closeness centrality, beta=1.0 ===
+  fold 1/5: RMSE=0.9484  MAE=0.7420
+  fold 2/5: RMSE=0.9747  MAE=0.7613
+  fold 3/5: RMSE=0.9489  MAE=0.7397
+  fold 4/5: RMSE=0.9540  MAE=0.7479
+  fold 5/5: RMSE=0.9446  MAE=0.7407
+  -> AVG RMSE=0.9541  AVG MAE=0.7463
+
+=== label_propagation + closeness centrality, beta=2.0 ===
+  fold 1/5: RMSE=0.9480  MAE=0.7417
+  fold 2/5: RMSE=0.9756  MAE=0.7623
+  fold 3/5: RMSE=0.9487  MAE=0.7399
+  fold 4/5: RMSE=0.9543  MAE=0.7478
+  fold 5/5: RMSE=0.9451  MAE=0.7411
+  -> AVG RMSE=0.9544  AVG MAE=0.7466
+
+=== label_propagation + closeness centrality, beta=5.0 ===
+  fold 1/5: RMSE=0.9505  MAE=0.7340
+  fold 2/5: RMSE=0.9812  MAE=0.7615
+  fold 3/5: RMSE=0.9489  MAE=0.7347
+  fold 4/5: RMSE=0.9565  MAE=0.7414
+  fold 5/5: RMSE=0.9432  MAE=0.7334
+  -> AVG RMSE=0.9561  AVG MAE=0.7410
+
+=== label_propagation + closeness centrality, beta=10.0 ===
+  fold 1/5: RMSE=0.9693  MAE=0.7443
+  fold 2/5: RMSE=1.0023  MAE=0.7721
+  fold 3/5: RMSE=0.9700  MAE=0.7460
+  fold 4/5: RMSE=0.9795  MAE=0.7538
+  fold 5/5: RMSE=0.9609  MAE=0.7407
+  -> AVG RMSE=0.9764  AVG MAE=0.7514
+Running community detection: bigclam ...
+
+=== bigclam + betweenness centrality, beta=0.0 ===
+  fold 1/5: RMSE=0.9486  MAE=0.7422
+  fold 2/5: RMSE=0.9745  MAE=0.7611
+  fold 3/5: RMSE=0.9491  MAE=0.7395
+  fold 4/5: RMSE=0.9538  MAE=0.7479
+  fold 5/5: RMSE=0.9447  MAE=0.7405
+  -> AVG RMSE=0.9541  AVG MAE=0.7462
+
+=== bigclam + betweenness centrality, beta=0.5 ===
+  fold 1/5: RMSE=0.9486  MAE=0.7422
+  fold 2/5: RMSE=0.9745  MAE=0.7611
+  fold 3/5: RMSE=0.9491  MAE=0.7395
+  fold 4/5: RMSE=0.9538  MAE=0.7479
+  fold 5/5: RMSE=0.9447  MAE=0.7405
+  -> AVG RMSE=0.9541  AVG MAE=0.7462
+
+=== bigclam + betweenness centrality, beta=1.0 ===
+  fold 1/5: RMSE=0.9486  MAE=0.7422
+  fold 2/5: RMSE=0.9745  MAE=0.7611
+  fold 3/5: RMSE=0.9491  MAE=0.7396
+  fold 4/5: RMSE=0.9538  MAE=0.7479
+  fold 5/5: RMSE=0.9447  MAE=0.7405
+  -> AVG RMSE=0.9541  AVG MAE=0.7462
+
+=== bigclam + betweenness centrality, beta=2.0 ===
+  fold 1/5: RMSE=0.9486  MAE=0.7422
+  fold 2/5: RMSE=0.9745  MAE=0.7611
+  fold 3/5: RMSE=0.9491  MAE=0.7396
+  fold 4/5: RMSE=0.9538  MAE=0.7479
+  fold 5/5: RMSE=0.9447  MAE=0.7405
+  -> AVG RMSE=0.9541  AVG MAE=0.7462
+
+=== bigclam + betweenness centrality, beta=5.0 ===
+  fold 1/5: RMSE=0.9487  MAE=0.7422
+  fold 2/5: RMSE=0.9746  MAE=0.7611
+  fold 3/5: RMSE=0.9491  MAE=0.7396
+  fold 4/5: RMSE=0.9538  MAE=0.7479
+  fold 5/5: RMSE=0.9447  MAE=0.7405
+  -> AVG RMSE=0.9542  AVG MAE=0.7462
+
+=== bigclam + betweenness centrality, beta=10.0 ===
+  fold 1/5: RMSE=0.9487  MAE=0.7422
+  fold 2/5: RMSE=0.9746  MAE=0.7611
+  fold 3/5: RMSE=0.9492  MAE=0.7396
+  fold 4/5: RMSE=0.9538  MAE=0.7479
+  fold 5/5: RMSE=0.9448  MAE=0.7405
+  -> AVG RMSE=0.9542  AVG MAE=0.7463
+
+Saved results/beta_sweep_results.json

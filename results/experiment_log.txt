@@ -1,0 +1,82 @@
+Dataset: 2740 users, 13067 items, 34438 ratings, 18424 trust edges
+
+Running community detection: louvain ...
+  -> 339 communities, avg communities/user = 1.00
+Running community detection: label_propagation ...
+  -> 333 communities, avg communities/user = 1.00
+Running community detection: bigclam ...
+  -> 20 communities, avg communities/user = 1.60
+
+=== louvain + degree centrality ===
+  fold 1/5: RMSE=0.9486  MAE=0.7423
+  fold 2/5: RMSE=0.9749  MAE=0.7613
+  fold 3/5: RMSE=0.9491  MAE=0.7395
+  fold 4/5: RMSE=0.9538  MAE=0.7480
+  fold 5/5: RMSE=0.9451  MAE=0.7409
+  -> AVG RMSE=0.9543 (+-0.0106)  AVG MAE=0.7464 (+-0.0080)
+
+=== louvain + betweenness centrality ===
+  fold 1/5: RMSE=0.9487  MAE=0.7423
+  fold 2/5: RMSE=0.9745  MAE=0.7613
+  fold 3/5: RMSE=0.9492  MAE=0.7397
+  fold 4/5: RMSE=0.9538  MAE=0.7479
+  fold 5/5: RMSE=0.9452  MAE=0.7410
+  -> AVG RMSE=0.9543 (+-0.0105)  AVG MAE=0.7464 (+-0.0079)
+
+=== louvain + closeness centrality ===
+  fold 1/5: RMSE=0.9486  MAE=0.7422
+  fold 2/5: RMSE=0.9749  MAE=0.7613
+  fold 3/5: RMSE=0.9492  MAE=0.7396
+  fold 4/5: RMSE=0.9537  MAE=0.7480
+  fold 5/5: RMSE=0.9452  MAE=0.7409
+  -> AVG RMSE=0.9543 (+-0.0106)  AVG MAE=0.7464 (+-0.0080)
+
+=== label_propagation + degree centrality ===
+  fold 1/5: RMSE=0.9485  MAE=0.7421
+  fold 2/5: RMSE=0.9748  MAE=0.7614
+  fold 3/5: RMSE=0.9489  MAE=0.7396
+  fold 4/5: RMSE=0.9540  MAE=0.7480
+  fold 5/5: RMSE=0.9447  MAE=0.7407
+  -> AVG RMSE=0.9542 (+-0.0107)  AVG MAE=0.7464 (+-0.0081)
+
+=== label_propagation + betweenness centrality ===
+  fold 1/5: RMSE=0.9485  MAE=0.7421
+  fold 2/5: RMSE=0.9748  MAE=0.7614
+  fold 3/5: RMSE=0.9489  MAE=0.7396
+  fold 4/5: RMSE=0.9540  MAE=0.7479
+  fold 5/5: RMSE=0.9447  MAE=0.7407
+  -> AVG RMSE=0.9542 (+-0.0107)  AVG MAE=0.7464 (+-0.0081)
+
+=== label_propagation + closeness centrality ===
+  fold 1/5: RMSE=0.9484  MAE=0.7420
+  fold 2/5: RMSE=0.9747  MAE=0.7613
+  fold 3/5: RMSE=0.9489  MAE=0.7397
+  fold 4/5: RMSE=0.9540  MAE=0.7479
+  fold 5/5: RMSE=0.9446  MAE=0.7407
+  -> AVG RMSE=0.9541 (+-0.0107)  AVG MAE=0.7463 (+-0.0080)
+
+=== bigclam + degree centrality ===
+  fold 1/5: RMSE=0.9488  MAE=0.7423
+  fold 2/5: RMSE=0.9747  MAE=0.7612
+  fold 3/5: RMSE=0.9492  MAE=0.7398
+  fold 4/5: RMSE=0.9538  MAE=0.7478
+  fold 5/5: RMSE=0.9447  MAE=0.7406
+  -> AVG RMSE=0.9542 (+-0.0106)  AVG MAE=0.7463 (+-0.0079)
+
+=== bigclam + betweenness centrality ===
+  fold 1/5: RMSE=0.9486  MAE=0.7422
+  fold 2/5: RMSE=0.9745  MAE=0.7611
+  fold 3/5: RMSE=0.9491  MAE=0.7396
+  fold 4/5: RMSE=0.9538  MAE=0.7479
+  fold 5/5: RMSE=0.9447  MAE=0.7405
+  -> AVG RMSE=0.9541 (+-0.0106)  AVG MAE=0.7462 (+-0.0080)
+
+=== bigclam + closeness centrality ===
+  fold 1/5: RMSE=0.9495  MAE=0.7432
+  fold 2/5: RMSE=0.9755  MAE=0.7617
+  fold 3/5: RMSE=0.9501  MAE=0.7413
+  fold 4/5: RMSE=0.9542  MAE=0.7473
+  fold 5/5: RMSE=0.9456  MAE=0.7414
+  -> AVG RMSE=0.9550 (+-0.0106)  AVG MAE=0.7470 (+-0.0077)
+
+Saved results/results.json
