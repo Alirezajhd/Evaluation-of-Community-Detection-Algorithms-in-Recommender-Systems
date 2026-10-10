@@ -7,7 +7,6 @@ pip install networkx scikit-learn numpy scipy --break-system-packages
 
 ## Run
 ```
-cd project3
 python3 src/evaluate.py
 ```
 This will:
