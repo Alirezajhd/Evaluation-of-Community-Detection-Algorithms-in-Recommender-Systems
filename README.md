@@ -1,4 +1,4 @@
-# Project 3 — Community Detection Impact on Recommender Systems
+# Project — Community Detection Impact on Recommender Systems
 
 ## Setup
 ```
